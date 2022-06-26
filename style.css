@@ -1,0 +1,183 @@
+body{
+    font-family: 'Roboto';
+}
+
+.header{
+    position: fixed;
+    z-index: 1;
+    width: 1219px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    background: #007765;
+}
+
+.logo_header{
+    position: absolute;
+
+    width: 184px;
+    height: 45px;
+    left: 55px;
+    top: 20px;
+}
+
+.table_header{
+    position: absolute;
+
+    left: 741px;
+    top: 29px;
+
+    font-size: 24px;
+    color: #FFFFFF;
+
+    border-color: #FFFFFF;  
+    border-collapse: collapse;   
+}
+
+td{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+td:not(:last-child):not(:first-child){      
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+.main{
+    position: absolute;   
+    left: 0px; 
+}
+
+.main_header{   
+    display: table-cell; 
+    vertical-align: middle;
+
+    color: #FFFFFF;
+    font-size: 72px;
+    text-align: center;
+    
+    height: 403px;
+    width: 1219px;
+    
+    background: url(Is_here.png) no-repeat;
+    background-size: 100%;  
+}
+
+.main_text{
+    position: relative;
+    font-style: normal;
+    left: 55px;
+}
+
+.main_text_header{  
+    width: 1107px;
+    height: 75px;  
+    
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    
+    text-align: center;
+    
+    color: #007765;
+}
+
+.main_text_body{  
+    width: 1110px;
+    height: 488px;
+    
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #000000;
+}
+
+.img_header{
+    display: table-cell; 
+    vertical-align: middle;
+
+    width: 1219px;
+    height: 483px;
+
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: url(header.png) no-repeat;
+    background-size: 100%;  
+}
+
+.intro{
+    position: relative;
+    font-style: normal;
+    left: 55px;
+}
+
+.intro_text_header{
+    width: 1110px;
+    height: 75px;
+    
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    
+    text-align: center;
+    
+    color: #007765;   
+}
+
+.intro_text_body{
+    width: 1110px;
+    height: 75px;
+    
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #000000;
+}
+
+.Logo{
+    width: 115px;
+    height: 115px;
+
+    padding-right: 50px;
+
+    float: left;
+}
+
+.team_block{
+    position: relative;
+    font-style: normal;  
+}
+
+.team_header{
+    width: 1110px;
+    height: 75px;
+    left: 55px;
+ 
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    
+    text-align: center;
+    
+    color: #007765;  
+}
+
+.team_body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+}
+
+.person{
+    width: 168px;
+    height: 168px;
+}
